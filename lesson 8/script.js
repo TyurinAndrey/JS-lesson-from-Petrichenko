@@ -1,31 +1,35 @@
-// 'use strict';
+// if (2*4 == 7){
+//     console.log("True");
+// } else{
+//     console.log("False");
+// }
 
-// let arr = ("plum.png", "orange.jpg", "apple.bmp");
-// console.log(arr[0]);
-// let answer = +prompt("Есть ли вам 18?", "Да");
+let num = 50;
 
-// console.log(typeof(answer));
+if (num < 49){
+    console.log("Неверно")
+} else if (num > 100){
+    console.log("Много")
+} else {
+    console.log("Верно")
+}
 
-// console.log("arr" + "-object");
+//то же самое при помощи унарных операторов
 
-// console.log(4 + + "-object");
-
-let incr = 10;
-    decr = 10;
-
-// incr++;
-// decr--;
-
-console.log(incr++);
-console.log(decr--);
-
-console.log(5%2);
-console.log("2" === 2);
+(num == 50) ? console.log("Верно") : console.log("Неверно");
 
 
-let isChecked = false;
-    isClose = false;
-
-console.log(isChecked && isClose);
-console.log(isChecked || isClose);
-console.log(isChecked || !isClose);
+switch (num) {
+    case num < 49:
+        console.log("Неверно");
+        break;
+    case num > 100:
+        console.log("Много");
+        break;
+    case  50:
+        console.log("Верно");
+        break;
+    default:
+        console.log("Что-то пошло не так");
+        break; 
+}
