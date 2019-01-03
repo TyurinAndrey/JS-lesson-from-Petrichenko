@@ -1,35 +1,20 @@
-// if (2*4 == 7){
-//     console.log("True");
-// } else{
-//     console.log("False");
-// }
+let time = +prompt("Введите дату в формате YYYY-MM-DD");
+let money = +prompt("Ваш бюджет на месяц?");
+let expenses1 = +prompt("Введите обязательную статью расходов");
+let expenses2 = +prompt("Во сколько обойдется?");
 
-let num = 50;
+let expenses = new Object();
+expenses.one = expenses1;
+expenses.two = expenses2;
 
-if (num < 49){
-    console.log("Неверно")
-} else if (num > 100){
-    console.log("Много")
-} else {
-    console.log("Верно")
-}
+let appData = new Object();
+appData.budget = money;
+appData.timeData = time;
+appData.expenses = expenses;
+// appData.optional.Expenses = 0;
+// appData.income = 0;
+// appData.savings = false;
 
-//то же самое при помощи унарных операторов
+budget1day = (money-expenses2)/30;
+alert(budget1day);
 
-(num == 50) ? console.log("Верно") : console.log("Неверно");
-
-
-switch (num) {
-    case num < 49:
-        console.log("Неверно");
-        break;
-    case num > 100:
-        console.log("Много");
-        break;
-    case  50:
-        console.log("Верно");
-        break;
-    default:
-        console.log("Что-то пошло не так");
-        break; 
-}
