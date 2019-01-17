@@ -12,7 +12,7 @@ first();
 second();
 
 function learnJS(lang, callback) {
-    console.log("Я учу" + lang);
+    console.log("Я учу " + lang);
     callback();
 }
 
