@@ -1,11 +1,18 @@
 body {
-    font-family: "Open Sans";
+    font-family: 'Pacifico', cursive;
     margin-top: 300px;
     text-align: center;
     color: #ffffff;
+
 }
 
 #clock {
     font-weight: 300;
-    font-style: 120px;
+    font-style: 500px;
+    font-size: 192px;
+
+}
+
+#color {
+	font-size: 56px;
 }

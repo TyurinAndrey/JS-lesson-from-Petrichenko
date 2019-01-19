@@ -10,13 +10,13 @@ function hexoClock() {
 
 
 if (h.length < 2) {
-    h = "0" + h;
+    h = "a" + h;
 }
 if (m.length < 2) {
-    m = "0" + m;
+    m = "e" + m;
 }
 if (s.length < 2) {
-    s = "0" + s;
+    s = "f" + s;
 }
 
 
