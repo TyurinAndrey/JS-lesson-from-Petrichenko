@@ -1,0 +1,17 @@
+#box {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.heart {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
